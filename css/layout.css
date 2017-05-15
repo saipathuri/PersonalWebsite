@@ -1,0 +1,41 @@
+#center {
+	position: absolute;
+    left: 50%;
+    top: 50%;
+
+    /*
+    *  Centering method from CSS Tricks
+    *  http://css-tricks.com/centering-percentage-widthheight-elements/
+    */
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+html, body {
+    height: 98%;
+}
+
+.block {
+    height: 98vh;
+    padding: 0;
+    text-align: center;
+}
+
+.block .information {
+    height: 98vh;
+    width: 100vw;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.h1, h1 {
+    font-size: 5.25em;
+}
+
+#resume {
+    font-size: 16px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
